@@ -10,6 +10,10 @@
 - command flutter pub get
 - command flutter run
 
+## Features
+- Change language ID and EN
+- UI Figma to Flutter
+
 ## Thank You
 
 
