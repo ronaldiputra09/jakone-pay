@@ -11,6 +11,11 @@ class WelcomeController extends GetxController {
 
   @override
   void onInit() {
+    if (Get.deviceLocale.toString() == "id_ID") {
+      switcher.value = false;
+    } else {
+      switcher.value = true;
+    }
     super.onInit();
   }
 

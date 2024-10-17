@@ -572,7 +572,7 @@ class HomeView extends GetView<HomeController> {
             onTap: () {},
             borderRadius: BorderRadius.circular(50),
             child: Padding(
-              padding: const EdgeInsets.only(bottom: 40),
+              padding: const EdgeInsets.only(bottom: 70),
               child: Image.asset(help, height: 100),
             ),
           ),
@@ -580,7 +580,7 @@ class HomeView extends GetView<HomeController> {
 
         // Qris Button
         Positioned(
-          bottom: 0,
+          bottom: 30,
           child: Container(
             height: 70,
             width: 70,
