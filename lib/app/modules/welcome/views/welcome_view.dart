@@ -114,7 +114,7 @@ class WelcomeView extends GetView<WelcomeController> {
               onPageChanged: (index) => welcomeC.indexPage.value = index,
               itemBuilder: (context, index) {
                 return Image.asset(
-                  'assets/images/monas.png',
+                  monas,
                   fit: BoxFit.contain,
                 );
               },

@@ -17,4 +17,8 @@ const Map<String, String> id = {
   'subtitle_2': 'jangan lewatkan event terkini',
   'view_all': 'Lihat Semua',
   'more': 'Informasi Lebih Lanjut',
+  'place_1': 'Gerbang Masuk Ancol',
+  'place_2': 'Monumen Nasional',
+  'place_3': 'Museum Sejarah Jakarta',
+  'detail': 'Detail',
 };

@@ -17,4 +17,8 @@ const Map<String, String> en = {
   'subtitle_2': 'don\'t miss the current events',
   'view_all': 'View All',
   'more': 'More Information',
+  'place_1': 'Ancol Entrance Gate',
+  'place_2': 'Monumen Nasional',
+  'place_3': 'Jakarta History Museum',
+  'detail': 'Detail',
 };

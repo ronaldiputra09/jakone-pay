@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^6.2.1
 
 dev_dependencies:
+  icons_launcher: ^3.0.0
   flutter_test:
     sdk: flutter
 
@@ -62,6 +63,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/logos/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -88,3 +90,17 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+icons_launcher:
+  image_path: assets/logos/logo.png
+  platforms:
+    android:
+      image_path: assets/logos/logo.png
+      adaptive_background_color: "#FF4747"
+      adaptive_foreground_image: assets/logos/logo.png
+      adaptive_round_image: assets/logos/logo_circle.png
+      adaptive_monochrome_image: assets/logos/logo.png
+      enable: true
+    ios:
+      image_path: assets/logos/logo.png
+      enable: true
